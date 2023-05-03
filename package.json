@@ -1,15 +1,22 @@
 {
   "name": "meli",
   "version": "1.0.0",
-  "description": "proyecto individual n2 \"mercado liebre\" digital house",
+  "description": "pry indiv n2",
   "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "scripts": {
-    "build": "nada que construir aca",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fclaiba/MELI.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "bugs": {
+    "url": "https://github.com/fclaiba/MELI/issues"
+  },
+  "homepage": "https://github.com/fclaiba/MELI#readme"
 }
