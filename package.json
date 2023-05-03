@@ -4,6 +4,7 @@
   "description": "proyecto individual n2 \"mercado liebre\" digital house",
   "main": "app.js",
   "scripts": {
+    "build": "nada que construir aca",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

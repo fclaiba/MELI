@@ -394,7 +394,7 @@ main section article i {
 .articulo-contenedor:hover {
   opacity: 1;
   height: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .articulo-contenedor:hover .descripcion {
@@ -654,7 +654,6 @@ main section article i {
 /* Tablet */
 @media (min-width: 361px) {
   .articulo-contenedor {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: calc(50% - 20px);
   }
 
@@ -706,7 +705,6 @@ main section article i {
   }
 
   .articulo-contenedor {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: calc(25% - 20px);
   }
 
