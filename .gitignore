@@ -1,0 +1,8 @@
+# Ignorar archivos y carpetas generados automáticamente
+/node_modules
+/build
+/dist
+
+# Ignorar archivos y carpetas específicos
+archivo.txt
+carpeta/otraCarpeta/archivo2.js
