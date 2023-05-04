@@ -75,7 +75,19 @@
   .login-bar li {
     list-style: none;
   }
-  
+
+  .nav-bar li a,
+  .login-bar li a {
+    color: blacK;
+    text-decoration: none;
+  }
+
+  .nav-bar li a:hover,
+  .login-bar li a:hover {
+    color: blacK;
+    text-decoration: none;
+  }
+
   .site-navbar,
   .login-navbar {
     display: none;
@@ -305,6 +317,18 @@ main {
 .titulares {
   color: var(--gris-oscuro);
   margin: 20px 0px;
+}
+
+ #register-titular {
+  color: var(--gris-oscuro);
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+#titular-inferior {
+  color: var(--gris-oscuro);
+  margin: 10px 0px;
 }
 
 .article {
@@ -541,7 +565,7 @@ main section article i {
 }
 
 .form-btn {
-  background-color: var(--celeste);
+  background-color: var(--azul);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -555,7 +579,7 @@ main section article i {
   }
 
 .form-btn:hover {
-  background-color: #0022AA;
+  background-color: var(--celeste);
 }
 
 .error-message {
@@ -624,7 +648,23 @@ main section article i {
   }
 
   .articulo-contenedor {
+    display: flex;
     width: 100%;
+  }
+
+  .product-info {
+    display: flex;
+    width: 100%;
+  }
+
+  .precio {
+    display: flex;
+    width: 30%;
+  }
+
+  .descuento {
+    display: flex;
+    width: 70%;
   }
 
   #ad-banner {

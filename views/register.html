@@ -16,9 +16,9 @@
 
             <div class="top-header-container">
                 <div class="logo">
-                  <img src="/img/logo-mercado-liebre.svg" alt="Mercado Liebre">
+                    <img src="/img/logo-mercado-liebre.svg" alt="Mercado Liebre">
                 </div>
-                <form class="search-bar" class="input-container">
+                <form class="search-bar" action="/" method="get" class="input-container">
                   <div class="input-wrapper">
                       <input type="search" id="search-bar" name="search" placeholder="Buscar productos, marcas...">
                       <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -56,7 +56,7 @@
 
         <main>
        
-        <h1 class="titulares">Registro de Usuario</h1>
+        <h1 id="register-titular">Registro de Usuario</h1>
         <section class="main-register-container">
           <div class="register-container">
               <form class="formulario" action="/" method="get" enctype="multipart/form-data">
@@ -68,7 +68,7 @@
                   <div class="input-container2">
                     <input class="input-text" type="email" id="correo-electronico" name="correo_electronico" placeholder="Correo electrónico:" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-error="Por favor, ingrese una dirección de correo electrónico válida."> 
                   </div>
-                    <label> <h3>Fecha de nacimiento</h3> 
+                    <h3 id="titular-inferior">Fecha de nacimiento</h3> 
                     <div class="input-container2">
                         <input class="input-text" type="date" id="fecha-nacimiento" name="fecha_nacimiento" placeholder="Fecha de nacimiento:" required>
                     </div>
